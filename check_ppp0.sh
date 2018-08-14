@@ -7,5 +7,5 @@ if [ ! -f /sys/class/net/ppp0/carrier ]; then
             then echo 0
         else
         echo 1
-        fi
+            fi
 fi
